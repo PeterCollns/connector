@@ -1,0 +1,44 @@
+[
+  {
+    "ContainingType": "MetaAdsConnector.Controllers.LeadsController",
+    "Method": "ReceiveLead",
+    "RelativePath": "api/Leads",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "MetaAdsConnector.DTO_s.CreateLeadDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MetaAdsConnector.Controllers.LeadsController",
+    "Method": "GetAllLeads",
+    "RelativePath": "api/Leads",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MetaAdsConnector.Controllers.LeadsController",
+    "Method": "GetLead",
+    "RelativePath": "api/Leads/{uuid}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "uuid",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
