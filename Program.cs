@@ -12,7 +12,7 @@ builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowAngularClient", policy =>
     {
-        policy.WithOrigins("https://connector-ui-git-main-petercollns-projects.vercel.app/")
+        policy.WithOrigins("https://connector-ui-git-main-petercollns-projects.vercel.app")
               .AllowAnyHeader()
               .AllowAnyMethod();
     });
